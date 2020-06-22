@@ -87,10 +87,6 @@ nav{
     height: 30px;
 }
 
-a{
-    display: flex;
-    text-decoration: none;
-}
 
 a:visited{
     color: rgb(99, 95, 104);
@@ -105,6 +101,7 @@ a:visited{
     padding-bottom: 10px;
     font-size: 12px;
     color: rgb(99, 95, 104);
+    text-decoration: none;
 }
 
 .nav-icon{
@@ -145,4 +142,35 @@ a:visited{
 
 #tools{
     margin: 0 0 0 20px;
+}
+
+main{
+    margin: 0 0 0 220px;
+    color: rgb(99, 95, 104);
+}
+
+#speed{
+    color: rgb(99, 95, 104);
+    font-size: 14px;
+}
+
+.downarrow{
+    width: 20px;
+    height: auto;
+    margin: 0 0 0 0;
+
+}
+
+h1{
+    display: inline;
+    color: rgb(28, 27, 168);
+    font-size: 20px;
+    line-height: 0px;
+    font-weight: 300;
+}
+
+.preview{
+    font-size: 15px;
+    margin: 0 0 40px 0;
+    display: block;
 }
