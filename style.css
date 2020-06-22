@@ -75,3 +75,62 @@
     border-radius: 15px;
     margin-left: 10px;
 }
+nav{
+    border-bottom: 1px solid rgb(153, 147, 147);
+}
+#search-options{
+    display: flex;
+    color: rgb(153, 147, 147);
+    margin: 10px 0 0 220px;
+    height: 30px;
+}
+
+a{
+    display: flex;
+    color: rgb(153, 147, 147);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:visited{
+    color: rgb(153, 147, 147);
+    text-decoration: none;
+}
+
+.headerlink{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 10px 0px 0;
+    padding-bottom: 10px;
+}
+
+.nav-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+#all-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+#all{
+    color: rgb(35, 118, 229);
+    border-bottom: 2px solid rgb(35, 118, 229);
+}
+
+#maps-icon{
+    width: 20px;
+    height: 20px;
+}
+
+#settings{
+    margin: 0 0 0 50px;
+}
+
+#tools{
+    margin: 0 0 0 20px;
+}
