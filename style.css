@@ -194,7 +194,7 @@ button{
     border-radius: 5px;
     font-size: 15px;
     color: rgb(28, 27, 168);
-    margin: 0 0 15px 0;
+    margin: 15px 0 15px 0;
 
 }
 
@@ -258,4 +258,25 @@ button:hover{
     text-align: right;
     font-size: 12px;
     
+}
+
+#related-heading{
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    margin: 30px 0 10px 0;
+}
+
+.related-items {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(28, 27, 168);
+}
+
+td{
+    padding: 5px 30px 5px 0;
+}
+
+td:hover{
+    text-decoration: underline;
 }
